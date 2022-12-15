@@ -104,12 +104,12 @@ function Loader() {
 }
 
 function Header({ showForm, setShowForm }) {
-  const appTitle = "Today I Learned";
+  const appTitle = "FactShare";
 
   return (
     <header className="header">
       <div className="logo">
-        <img src="logo.png" height="68" width="68" alt="Today I Learned Logo" />
+        <img src="logo.png" height="68" width="68" alt="FactShare-Logo" />
         <h1>{appTitle}</h1>
       </div>
 
